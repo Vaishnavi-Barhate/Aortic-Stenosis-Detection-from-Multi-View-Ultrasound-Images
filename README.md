@@ -14,7 +14,7 @@ To address these challenges, this project applies **attention-based Multiple Ins
 ---
 
 ## Results
-We ran two full model runs. The original_samil.ipynb runs the SAMIL model defined in the paper. The modified_samil.ipynb runs SAMIL with added drop out layers.
+We ran two full model runs. The (original_samil.ipynb) runs the SAMIL model defined in the paper. The modified_samil.ipynb runs SAMIL with added drop out layers.
 
 We also added the balanced accuracy results and loss per epoch for each model run as well as the model checkpoint at the best balanced accurracy in here.
 
