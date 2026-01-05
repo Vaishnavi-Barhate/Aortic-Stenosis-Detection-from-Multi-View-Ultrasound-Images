@@ -14,17 +14,25 @@ To address these challenges, this project applies **attention-based Multiple Ins
 ---
 
 ## Results
-We ran two full model runs. The (original_samil.ipynb) runs the SAMIL model defined in the paper. The modified_samil.ipynb runs SAMIL with added drop out layers.
+We ran two full model runs:
+- **[original_samil.ipynb](original_samil.ipynb)** runs the SAMIL model defined in the paper
+- **[modified_samil.ipynb](modified_samil.ipynb)** runs SAMIL with added dropout layers
 
-We also added the balanced accuracy results and loss per epoch for each model run as well as the model checkpoint at the best balanced accurracy in here.
-
----
-
-Running SAMIL with study-level pretraining, go to runs/SAMIL bash launch_experiment.sh run_here or use the custom setup.sh script provided
+We also added the **balanced accuracy results**, **loss per epoch**, and the **model checkpoint at the best balanced accuracy** for each run.
 
 ---
 
-### Prepare Datasets
+## Running Experiments
+To run SAMIL with study-level pretraining:
+- Navigate to **[runs/SAMIL](runs/SAMIL/)**
+- Run the experiment script:  
+  **[launch_experiment.sh](runs/SAMIL/launch_experiment.sh)**  
+- Or use the custom setup script:  
+  **[setup.sh](setup.sh)**
+
+---
+
+## Prepare Datasets
 1. Download TMED2 from: https://TMED.cs.tufts.edu
 2. Navigate to the `view_and_diagnosis_labeled_set` directory
 3. Run the dataset organization script:
